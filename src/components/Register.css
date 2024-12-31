@@ -1,0 +1,101 @@
+/* Full-page two-column layout */
+.register-page {
+    display: flex;
+    height: 100vh;
+}
+
+/* Left column: Full image */
+.register-left {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.register-left img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Right column: Red background */
+.register-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ff6f61; /* Red background */
+    color: white;
+}
+
+/* Register container with centered form */
+.register-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Register button styling */
+button {
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #ff6f61;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff8a80;
+}
+
+/* Error message styling */
+.error-message {
+    color: red;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+/* Login link styling */
+p a {
+    color: #ff6f61;
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}

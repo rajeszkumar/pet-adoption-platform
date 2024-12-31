@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Buddy",
+        "type": "Dog",
+        "breed": "Golden Retriever",
+        "gender": "Male",
+        "age": 2,
+        "image": "https://example.com/buddy.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Mittens",
+        "type": "Cat",
+        "breed": "Persian",
+        "gender": "Female",
+        "age": 3,
+        "image": "https://example.com/mittens.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "type": "Dog",
+        "breed": "Beagle",
+        "gender": "Male",
+        "age": 1,
+        "image": "https://example.com/charlie.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Bella",
+        "type": "Cat",
+        "breed": "Siamese",
+        "gender": "Female",
+        "age": 4,
+        "image": "https://example.com/bella.jpg"
+    }
+]
